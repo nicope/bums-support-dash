@@ -1,0 +1,51 @@
+{
+  "week_start": "2026-03-09",
+  "week_end": "2026-03-15",
+  "metrics": {
+    "created": 568,
+    "closed": 392,
+    "open_total": 845,
+    "frt_seconds": 6972,
+    "resolution_seconds": 165998,
+    "avg_response_seconds": 23449,
+    "zero_touch_rate": 67.9,
+    "one_touch_rate": 11.7,
+    "messages_sent": 650
+  },
+  "daily": {
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "dates": ["3/9","3/10","3/11","3/12","3/13","3/14","3/15"],
+    "created": [56, 96, 108, 85, 54, 48, 75],
+    "closed": [52, 77, 69, 59, 38, 27, 36]
+  },
+  "agents": [
+    { "name": "Aika",        "closed": 106, "share": 30.9, "replied": 54,  "messages_sent": 83,  "frt_seconds": 5362,  "avg_response_seconds": 19642 },
+    { "name": "Hannah",      "closed": 103, "share": 30.0, "replied": 90,  "messages_sent": 183, "frt_seconds": 1600,  "avg_response_seconds": 21616 },
+    { "name": "Steffi",      "closed": 78,  "share": 22.7, "replied": 86,  "messages_sent": 154, "frt_seconds": 919,   "avg_response_seconds": 28907 },
+    { "name": "Emmanuel",    "closed": 51,  "share": 14.9, "replied": 95,  "messages_sent": 158, "frt_seconds": 2936,  "avg_response_seconds": 22576 },
+    { "name": "Angela (AI)", "closed": 6,   "share": 1.7,  "replied": 32,  "messages_sent": 66,  "frt_seconds": null,  "avg_response_seconds": null }
+  ],
+  "ai_agent": {
+    "involvement_rate": 1.1,
+    "handover_rate": 84.4,
+    "success_rate": 18.8,
+    "tickets_resolved": 6
+  },
+  "top_issues": [
+    { "label": "return_request",      "category": "Returns",          "volume": 12, "severity": "High" },
+    { "label": "urgent",              "category": "Urgent",           "volume": 8,  "severity": "Critical" },
+    { "label": "wrong_item_received", "category": "Wrong Item",       "volume": 6,  "severity": "Critical" },
+    { "label": "missing_item",        "category": "Missing Item",     "volume": 4,  "severity": "High" },
+    { "label": "refund-bum_bucks",    "category": "Refund/BumBucks",  "volume": 3,  "severity": "Medium" },
+    { "label": "baja",                "category": "Baja Fulfillment", "volume": 2,  "severity": "Medium" },
+    { "label": "exchange_request",    "category": "Exchanges",        "volume": 2,  "severity": "Medium" },
+    { "label": "order_status",        "category": "Order Status",     "volume": 2,  "severity": "Low" }
+  ],
+  "knowledge_gaps": [
+    { "query": "how often new crib sheet patterns are released", "first_seen": "2026-03-10" },
+    { "query": "what does BOGO mean",                            "first_seen": "2026-03-10" },
+    { "query": "next sale on girls dresses",                     "first_seen": "2026-03-10" },
+    { "query": "store location",                                 "first_seen": "2026-03-12" }
+  ],
+  "pdf_filename": "support-performance-report-2026-03-09.pdf"
+}
