@@ -19,11 +19,11 @@
     "closed": [46, 71, 67, 59, 36, 26, 36]
   },
   "agents": [
-    { "name": "Aika", "closed": 104, "share": 31.1, "replied": 54, "messages_sent": 83, "frt_seconds": 5362.0, "avg_response_seconds": 19642.4 },
-    { "name": "Hannah", "closed": 98, "share": 29.3, "replied": 90, "messages_sent": 183, "frt_seconds": 1600.0, "avg_response_seconds": 21616.3 },
-    { "name": "Steffi", "closed": 77, "share": 23.1, "replied": 86, "messages_sent": 154, "frt_seconds": 919.0, "avg_response_seconds": 28906.9 },
-    { "name": "Emmanuel", "closed": 50, "share": 15.0, "replied": 95, "messages_sent": 158, "frt_seconds": 2936.0, "avg_response_seconds": 22576.4 },
-    { "name": "AI Agent", "closed": 6, "share": 1.8, "replied": 32, "messages_sent": 66, "frt_seconds": null, "avg_response_seconds": null }
+    { "name": "Aika",              "closed": 104, "share": 31.1, "replied": 54,  "messages_sent": 83,  "frt_seconds": 5362.0,  "avg_response_seconds": 19642.4 },
+    { "name": "Hannah",            "closed":  98, "share": 29.3, "replied": 90,  "messages_sent": 183, "frt_seconds": 1600.0,  "avg_response_seconds": 21616.3 },
+    { "name": "Steffi",            "closed":  77, "share": 23.1, "replied": 86,  "messages_sent": 154, "frt_seconds":  919.0,  "avg_response_seconds": 28906.9 },
+    { "name": "Emmanuel",          "closed":  50, "share": 15.0, "replied": 95,  "messages_sent": 158, "frt_seconds": 2936.0,  "avg_response_seconds": 22576.4 },
+    { "name": "AI Agent (Angela)", "closed":   6, "share":  1.8, "replied": 32,  "messages_sent":  66, "frt_seconds": null,    "avg_response_seconds": null    }
   ],
   "ai_agent": {
     "involvement_rate": 1.1,
@@ -32,14 +32,14 @@
     "tickets_resolved": 6
   },
   "top_issues": [
-    { "label": "wrong_item_received", "category": "Wrong Item Received", "volume": 4, "severity": "Critical" },
-    { "label": "baja", "category": "Baja Fulfillment", "volume": 3, "severity": "Medium" },
-    { "label": "delivered_not_received", "category": "Delivered Not Received", "volume": 3, "severity": "High" },
-    { "label": "return_status", "category": "Return Status", "volume": 3, "severity": "High" },
-    { "label": "damaged_defective", "category": "Damaged / Defective", "volume": 1, "severity": "Critical" },
-    { "label": "refund-bum_bucks", "category": "Refund / Bum Bucks", "volume": 1, "severity": "Medium" },
-    { "label": "exchange_request", "category": "Exchange Request", "volume": 1, "severity": "Medium" },
-    { "label": "change_order", "category": "Change Order", "volume": 1, "severity": "Medium" }
+    { "label": "urgent",                "category": "Priority Escalation",   "volume": 9, "severity": "Critical" },
+    { "label": "baja",                  "category": "Baja Fulfillment",       "volume": 4, "severity": "Medium"   },
+    { "label": "wrong_item_received",   "category": "Wrong Item Received",    "volume": 4, "severity": "Critical" },
+    { "label": "return_status",         "category": "Return Status",          "volume": 4, "severity": "High"     },
+    { "label": "delivered_not_received","category": "Delivered Not Received", "volume": 3, "severity": "High"     },
+    { "label": "damaged_defective",     "category": "Damaged / Defective",    "volume": 1, "severity": "Critical" },
+    { "label": "exchange_request",      "category": "Exchange Request",       "volume": 1, "severity": "Medium"   },
+    { "label": "refund-bum_bucks",      "category": "Refund - Bum Bucks",     "volume": 1, "severity": "Medium"   }
   ],
   "knowledge_gaps": [
     { "query": "store location", "first_seen": "2026-03-12" }
