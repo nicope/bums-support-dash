@@ -22,6 +22,16 @@ export default function Nav({ active }) {
             Dashboard
           </Link>
           <Link
+            href="/monthly"
+            className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              active === 'monthly'
+                ? 'bg-pink-500/20 text-pink-400'
+                : 'text-gray-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            By Month
+          </Link>
+          <Link
             href="/reports"
             className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors ${
               active === 'reports'
