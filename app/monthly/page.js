@@ -40,6 +40,7 @@ export default function MonthlyPage() {
             Ticket volume over{' '}
             <span className="text-pink-400 font-semibold">{monthly.months.length} months</span>
             {' '}· {monthly.months[0]?.label} – {monthly.months[monthly.months.length - 1]?.label}
+            {' '}· <span className="text-gray-500">Updated {monthly.generated}</span>
           </p>
         </div>
 
@@ -65,9 +66,16 @@ export default function MonthlyPage() {
         <div className="card">
           <p className="section-title">Monthly Ticket Volume</p>
           <MonthlyVolumeChart data={monthly.months} />
-          <p className="text-gray-600 text-xs mt-3 text-center">
-            * March 2026 is a partial month (through {monthly.generated})
-          </p>
+          {(() => {
+            const partial = monthly.months.find(m => m.partial)
+            if (!partial) return null
+            const throughDate = partial.through || monthly.generated
+            return (
+              <p className="text-gray-600 text-xs mt-3 text-center">
+                * {partial.label.replace('*', '')} is a partial month (data through {throughDate})
+              </p>
+            )
+          })()}
         </div>
 
         {/* Table */}
