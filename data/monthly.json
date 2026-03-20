@@ -1,16 +1,16 @@
 {
-  "generated": "2026-03-18",
+  "generated": "2026-03-20",
   "months": [
-    { "month": "2025-05", "label": "May 25", "created": 4020, "closed": 3024 },
-    { "month": "2025-06", "label": "Jun 25", "created": 4048, "closed": 3704 },
-    { "month": "2025-07", "label": "Jul 25", "created": 4770, "closed": 4100 },
-    { "month": "2025-08", "label": "Aug 25", "created": 3846, "closed": 3006 },
-    { "month": "2025-09", "label": "Sep 25", "created": 3340, "closed": 2505 },
-    { "month": "2025-10", "label": "Oct 25", "created": 3760, "closed": 2616 },
-    { "month": "2025-11", "label": "Nov 25", "created": 5307, "closed": 3533 },
-    { "month": "2025-12", "label": "Dec 25", "created": 4184, "closed": 2676 },
-    { "month": "2026-01", "label": "Jan 26", "created": 3509, "closed": 2582 },
-    { "month": "2026-02", "label": "Feb 26", "created": 2704, "closed": 1978 },
-    { "month": "2026-03", "label": "Mar 26*", "created": 1501, "closed": 1015, "partial": true, "through": "2026-03-17" }
+    { "month": "2025-05", "label": "May 25", "created": 3957, "closed": 2967 },
+    { "month": "2025-06", "label": "Jun 25", "created": 4016, "closed": 3672 },
+    { "month": "2025-07", "label": "Jul 25", "created": 4695, "closed": 4025 },
+    { "month": "2025-08", "label": "Aug 25", "created": 3764, "closed": 2924 },
+    { "month": "2025-09", "label": "Sep 25", "created": 3271, "closed": 2436 },
+    { "month": "2025-10", "label": "Oct 25", "created": 3697, "closed": 2554 },
+    { "month": "2025-11", "label": "Nov 25", "created": 5212, "closed": 3438 },
+    { "month": "2025-12", "label": "Dec 25", "created": 4136, "closed": 2628 },
+    { "month": "2026-01", "label": "Jan 26", "created": 3432, "closed": 2507 },
+    { "month": "2026-02", "label": "Feb 26", "created": 2667, "closed": 1942 },
+    { "month": "2026-03", "label": "Mar 26*", "created": 1712, "closed": 1160, "partial": true, "through": "2026-03-19" }
   ]
 }
