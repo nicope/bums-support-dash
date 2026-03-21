@@ -4,7 +4,7 @@
   "metrics": {
     "created": 547,
     "closed": 371,
-    "open_total": 20,
+    "open_total": 176,
     "frt_seconds": 6972.0,
     "resolution_seconds": 174690.0,
     "avg_response_seconds": 23449.0,
@@ -13,33 +13,32 @@
     "messages_sent": 642
   },
   "daily": {
-    "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
-    "dates": ["3/9","3/10","3/11","3/12","3/13","3/14","3/15"],
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "dates": ["3/9", "3/10", "3/11", "3/12", "3/13", "3/14", "3/15"],
     "created": [48, 90, 105, 85, 51, 47, 75],
     "closed": [44, 71, 66, 59, 35, 26, 36]
   },
   "agents": [
-    { "name": "Aika",        "closed": 104, "share": 31.4, "replied": 54,  "messages_sent": 83,  "frt_seconds": 5362.0,  "avg_response_seconds": 19642.4 },
-    { "name": "Hannah",      "closed": 98,  "share": 29.6, "replied": 90,  "messages_sent": 183, "frt_seconds": 1600.0,  "avg_response_seconds": 21616.3 },
-    { "name": "Steffi",      "closed": 75,  "share": 22.7, "replied": 86,  "messages_sent": 154, "frt_seconds": 919.0,   "avg_response_seconds": 28906.9 },
-    { "name": "Emmanuel",    "closed": 49,  "share": 14.8, "replied": 95,  "messages_sent": 158, "frt_seconds": 2936.0,  "avg_response_seconds": 22576.4 },
-    { "name": "Angela (AI)", "closed": 6,   "share": 1.8,  "replied": 32,  "messages_sent": 66,  "frt_seconds": null,    "avg_response_seconds": null }
+    { "name": "Aika", "closed": 104, "share": 31.4, "replied": 54, "messages_sent": 83, "frt_seconds": 5362.0, "avg_response_seconds": 19642.4 },
+    { "name": "Hannah", "closed": 98, "share": 29.6, "replied": 90, "messages_sent": 183, "frt_seconds": 1600.0, "avg_response_seconds": 21616.3 },
+    { "name": "Steffi", "closed": 75, "share": 22.7, "replied": 86, "messages_sent": 154, "frt_seconds": 919.0, "avg_response_seconds": 28906.9 },
+    { "name": "Emmanuel", "closed": 49, "share": 14.8, "replied": 95, "messages_sent": 158, "frt_seconds": 2936.0, "avg_response_seconds": 22576.4 }
   ],
   "ai_agent": {
-    "involvement_rate": 1.1,
-    "handover_rate": 84.4,
-    "success_rate": 18.8,
-    "tickets_resolved": 6
+    "involvement_rate": 0.0,
+    "handover_rate": 0.0,
+    "success_rate": 0.0,
+    "tickets_resolved": 0
   },
   "top_issues": [
-    { "label": "urgent",              "category": "Urgent / Escalation",  "volume": 9, "severity": "Critical" },
-    { "label": "order_status",        "category": "Order Status Inquiry",  "volume": 3, "severity": "Medium"   },
-    { "label": "return_status",       "category": "Return Status",         "volume": 3, "severity": "High"     },
-    { "label": "wrong_item_received", "category": "Wrong Item Received",   "volume": 1, "severity": "Critical" },
-    { "label": "missing_item",        "category": "Missing Item",          "volume": 1, "severity": "High"     },
-    { "label": "lost_in_transit",     "category": "Lost in Transit",       "volume": 1, "severity": "High"     },
-    { "label": "restock_inquiry",     "category": "Restock Inquiry",       "volume": 1, "severity": "Low"      },
-    { "label": "shipping_delay",      "category": "Shipping Delay",        "volume": 1, "severity": "High"     }
+    { "label": "order_status", "category": "Order Management", "volume": 3, "severity": "Medium" },
+    { "label": "return_status", "category": "Returns", "volume": 3, "severity": "High" },
+    { "label": "discount_not_working", "category": "Promotions", "volume": 2, "severity": "Medium" },
+    { "label": "return", "category": "Returns", "volume": 1, "severity": "High" },
+    { "label": "damaged_defective", "category": "Product Quality", "volume": 1, "severity": "Critical" },
+    { "label": "wrong_item_received", "category": "Fulfillment", "volume": 1, "severity": "Critical" },
+    { "label": "missing_item", "category": "Fulfillment", "volume": 1, "severity": "High" },
+    { "label": "baja", "category": "Fulfillment (3PL)", "volume": 1, "severity": "Medium" }
   ],
   "knowledge_gaps": [],
   "pdf_filename": "support-performance-report-2026-03-09.pdf"
