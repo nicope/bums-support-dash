@@ -2,43 +2,44 @@
   "week_start": "2026-03-16",
   "week_end": "2026-03-22",
   "metrics": {
-    "created": 649,
-    "closed": 446,
-    "open_total": 203,
-    "frt_seconds": 5474.0,
-    "resolution_seconds": 89665.0,
-    "avg_response_seconds": 21647.0,
-    "zero_touch_rate": 72.9,
-    "one_touch_rate": 10.3,
-    "messages_sent": 721
+    "created": 701,
+    "closed": 482,
+    "open_total": 219,
+    "frt_seconds": 5490.0,
+    "resolution_seconds": 85824.0,
+    "avg_response_seconds": 21152.0,
+    "zero_touch_rate": 74.1,
+    "one_touch_rate": 10.0,
+    "messages_sent": 772
   },
   "daily": {
     "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     "dates": ["3/16", "3/17", "3/18", "3/19", "3/20", "3/21", "3/22"],
-    "created": [86, 91, 132, 95, 111, 81, 53],
-    "closed": [59, 66, 94, 66, 97, 36, 39]
+    "created": [86, 91, 132, 95, 111, 81, 72],
+    "closed": [59, 66, 94, 66, 97, 36, 51]
   },
   "agents": [
-    { "name": "Hannah", "closed": 130, "share": 34.6, "replied": 107, "messages_sent": 229, "frt_seconds": 895.0, "avg_response_seconds": 13412.4 },
-    { "name": "Aika", "closed": 90, "share": 23.9, "replied": 62, "messages_sent": 87, "frt_seconds": 3175.0, "avg_response_seconds": 31343.7 },
-    { "name": "Steffi", "closed": 79, "share": 21.0, "replied": 72, "messages_sent": 139, "frt_seconds": 819.0, "avg_response_seconds": 19244.9 },
-    { "name": "Emmanuel", "closed": 71, "share": 18.9, "replied": 114, "messages_sent": 207, "frt_seconds": 2364.0, "avg_response_seconds": 30935.2 }
+    { "name": "Hannah", "closed": 130, "share": 31.6, "replied": 107, "messages_sent": 229, "frt_seconds": 895.0, "avg_response_seconds": 13412.4 },
+    { "name": "Aika", "closed": 114, "share": 27.7, "replied": 71, "messages_sent": 103, "frt_seconds": 1806.0, "avg_response_seconds": 31121.3 },
+    { "name": "Steffi", "closed": 87, "share": 21.1, "replied": 83, "messages_sent": 156, "frt_seconds": 961.0, "avg_response_seconds": 18386.5 },
+    { "name": "Emmanuel", "closed": 75, "share": 18.2, "replied": 119, "messages_sent": 227, "frt_seconds": 2638.0, "avg_response_seconds": 28271.5 },
+    { "name": "AI Agent", "closed": 8, "share": 1.9, "replied": 26, "messages_sent": 64, "frt_seconds": null, "avg_response_seconds": null }
   ],
   "ai_agent": {
-    "involvement_rate": 0.0,
-    "handover_rate": 0.0,
-    "success_rate": 0.0,
-    "tickets_resolved": 0
+    "involvement_rate": 0.7,
+    "handover_rate": 82.6,
+    "success_rate": 34.8,
+    "tickets_resolved": 8
   },
   "top_issues": [
-    { "label": "wrong_item_received", "category": "Wrong Item Received", "volume": 50, "severity": "Critical" },
-    { "label": "confirm_address", "category": "Address Confirmation", "volume": 40, "severity": "Medium" },
-    { "label": "return_request", "category": "Return Request", "volume": 40, "severity": "High" },
-    { "label": "damaged_defective", "category": "Damaged / Defective", "volume": 30, "severity": "Critical" },
-    { "label": "discount_not_working", "category": "Discount Issues", "volume": 20, "severity": "Medium" },
-    { "label": "order_status", "category": "Order Status Inquiry", "volume": 20, "severity": "Medium" },
-    { "label": "discount_request", "category": "Discount Request", "volume": 20, "severity": "Medium" },
-    { "label": "delivered_wrong_address", "category": "Delivered Wrong Address", "volume": 20, "severity": "Medium" }
+    { "label": "wrong_item_received", "category": "Wrong Item Received", "volume": 30, "severity": "Critical" },
+    { "label": "cancel_order", "category": "Cancel Order", "volume": 20, "severity": "Medium" },
+    { "label": "order_status", "category": "Order Status", "volume": 20, "severity": "Medium" },
+    { "label": "damaged_defective", "category": "Damaged / Defective", "volume": 15, "severity": "Critical" },
+    { "label": "return_request", "category": "Return Request", "volume": 15, "severity": "High" },
+    { "label": "discount_request", "category": "Discount Request", "volume": 15, "severity": "Medium" },
+    { "label": "damaged", "category": "Damaged (Shipping)", "volume": 10, "severity": "Critical" },
+    { "label": "change_order", "category": "Change Order", "volume": 10, "severity": "Medium" }
   ],
   "knowledge_gaps": [],
   "pdf_filename": "support-performance-report-2026-03-16.pdf"

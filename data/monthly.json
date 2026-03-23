@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-22",
+  "generated": "2026-03-23",
   "months": [
     { "month": "2025-05", "label": "May 25", "created": 3940, "closed": 2954 },
     { "month": "2025-06", "label": "Jun 25", "created": 4004, "closed": 3660 },
@@ -11,6 +11,6 @@
     { "month": "2025-12", "label": "Dec 25", "created": 4112, "closed": 2604 },
     { "month": "2026-01", "label": "Jan 26", "created": 3417, "closed": 2492 },
     { "month": "2026-02", "label": "Feb 26", "created": 2653, "closed": 1928 },
-    { "month": "2026-03", "label": "Mar 26*", "created": 1912, "closed": 1297, "partial": true, "through": "2026-03-21" }
+    { "month": "2026-03", "label": "Mar 26*", "created": 1985, "closed": 1340, "partial": true, "through": "2026-03-22" }
   ]
 }
